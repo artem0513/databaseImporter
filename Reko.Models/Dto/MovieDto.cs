@@ -58,6 +58,7 @@ namespace Reko.Models.Dto
         public IEnumerable<CountryDto> ProductionCountries { get; set; }
 
         [DataMember(Name = "release_date")]
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
         public DateTime ReleaseDate { get; set; }
 
         [DataMember(Name = "revenue")]

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Serilog;
 
 namespace Reko
 {
@@ -22,6 +23,7 @@ namespace Reko
             services.AddRouting();
             services.AddControllers();
             services.AddControllersWithViews();
+            services.AddSingleton(Log.Logger);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -29,7 +31,6 @@ namespace Reko
             if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
 
             app.UseHttpsRedirection();
-
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -39,8 +40,6 @@ namespace Reko
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-                //endpoints.MapControllers();
             });
         }
     }

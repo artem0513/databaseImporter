@@ -33,28 +33,28 @@ namespace Reko.Data
             {
                 b.HasKey(x => x.Id);
                 b.Property(x => x.Id).ValueGeneratedNever();
-                b.HasOne(x => x.CollectionInfo).WithOne(x => x.Movie).HasForeignKey<Movie>(x => x.CollectionInfoId);
-                b.HasMany(x => x.Genres).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MovieGenre"));
-                b.HasMany(x => x.ProductionCompanies).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MovieProductionCompany"));
-                b.HasMany(x => x.Countries).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MovieCountry"));
-                b.HasMany(x => x.Languages).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MovieLanguage"));
-                b.HasMany(x => x.KeyWords).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MovieKeyword"));
-                b.HasMany(x => x.CastMembers).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MovieCastMember"));
-                b.HasMany(x => x.CrewMembers).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MovieCrewMember"));
+                b.HasOne(x => x.CollectionInfo).WithMany(x => x.Movies).HasForeignKey(x => x.CollectionInfoId);
+                b.HasMany(x => x.Genres).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MoviesGenres"));
+                b.HasMany(x => x.ProductionCompanies).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MoviesProductionCompanies"));
+                b.HasMany(x => x.Countries).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MoviesCountries"));
+                b.HasMany(x => x.Languages).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MoviesLanguages"));
+                b.HasMany(x => x.KeyWords).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MoviesKeywords"));
+                b.HasMany(x => x.CastMembers).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MoviesCastMembers"));
+                b.HasMany(x => x.CrewMembers).WithMany(x => x.Movies).UsingEntity(x => x.ToTable("MoviesCrewMembers"));
             });
 
             modelBuilder.Entity<TvShow>(b =>
             {
                 b.HasKey(x => x.Id);
                 b.Property(x => x.Id).ValueGeneratedNever();
-                b.HasMany(x => x.TvShowCreators).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowTvShowCreator"));
-                b.HasMany(x => x.Genres).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowGenre"));
-                b.HasMany(x => x.ProductionCompanies).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowProductionCompany"));
-                b.HasMany(x => x.Networks).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowNetwork"));
-                b.HasMany(x => x.KeyWords).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowKeyword"));
+                b.HasMany(x => x.TvShowCreators).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowsTvShowCreators"));
+                b.HasMany(x => x.Genres).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowsGenres"));
+                b.HasMany(x => x.ProductionCompanies).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowsProductionCompanies"));
+                b.HasMany(x => x.Networks).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowsNetworks"));
+                b.HasMany(x => x.KeyWords).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowsKeywords"));
                 b.HasMany(x => x.Seasons).WithOne(x => x.TvShow).HasForeignKey(x => x.TvShowId);
-                b.HasMany(x => x.CrewMembers).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowCrewMember"));
-                b.HasMany(x => x.CastMembers).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowCastMember"));
+                b.HasMany(x => x.CrewMembers).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowsCrewMembers"));
+                b.HasMany(x => x.CastMembers).WithMany(x => x.TvShows).UsingEntity(x => x.ToTable("TvShowsCastMembers"));
             });
 
             modelBuilder.Entity<Video>(b =>
@@ -81,8 +81,8 @@ namespace Reko.Data
             {
                 b.HasKey(x => x.Id);
                 b.Property(x => x.Id).ValueGeneratedNever();
-                b.HasMany(x => x.GuestStars).WithMany(x => x.Episodes).UsingEntity(x => x.ToTable("EpisodeGuestStar"));
-                b.HasMany(x => x.CrewMembers).WithMany(x => x.Episodes).UsingEntity(x => x.ToTable("EpisodeCrewMember"));
+                b.HasMany(x => x.GuestStars).WithMany(x => x.Episodes).UsingEntity(x => x.ToTable("EpisodesGuestStars"));
+                b.HasMany(x => x.CrewMembers).WithMany(x => x.Episodes).UsingEntity(x => x.ToTable("EpisodesCrewMembers"));
             });
 
             modelBuilder.Entity<Season>(b =>
@@ -135,18 +135,6 @@ namespace Reko.Data
             });
 
             modelBuilder.Entity<Person>(b =>
-            {
-                b.HasKey(x => x.Id);
-                b.Property(x => x.Id).ValueGeneratedNever();
-            });
-
-            modelBuilder.Entity<CastMember>(b =>
-            {
-                b.HasKey(x => x.Id);
-                b.Property(x => x.Id).ValueGeneratedNever();
-            });
-
-            modelBuilder.Entity<CrewMember>(b =>
             {
                 b.HasKey(x => x.Id);
                 b.Property(x => x.Id).ValueGeneratedNever();

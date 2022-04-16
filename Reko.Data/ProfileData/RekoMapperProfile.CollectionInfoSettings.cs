@@ -8,7 +8,7 @@ namespace Reko.Data.ProfileData
     {
         private static void ConfigureCollectionInfoFromDtoToEntity(IProfileExpression configuration)
         {
-            configuration.CreateMap<CollectionInfoDto, CollectionInfo>().ForMember(x => x.Movie, x => x.Ignore());
+            configuration.CreateMap<CollectionInfoDto, CollectionInfo>().ForMember(x => x.Movies, x => x.Ignore());
         }
 
         private static void ConfigureCollectionInfoFromEntityToDto(IProfileExpression configuration)

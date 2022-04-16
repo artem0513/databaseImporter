@@ -6,6 +6,6 @@ namespace Reko.Contracts.ApiRequestFramework
 {
     public interface IDiscoveryApiRequest<T>
     {
-        Task<IEnumerable<T>> GetIds(DateTime date);
+        Task<IEnumerable<T>> GetIds(DateTime from, DateTime to);
     }
 }

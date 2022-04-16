@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
+using Reko.Data.Entities;
 using Reko.Models.Dto;
 
 namespace Reko.Contracts.Managers
 {
-    public interface IMovieManager
+    public interface IMovieManager : ICRUDManager<Movie, MovieDto, int>
     {
-        Task<IEnumerable<MovieDto>> GetMovies();
-        Task<MovieDto> GetMovieInfo(int id);
+        Task<MovieDto> GetMovieInfo(int id, CancellationToken cancellationToken);
     }
 }

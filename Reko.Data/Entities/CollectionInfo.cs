@@ -1,4 +1,6 @@
-﻿using Reko.Data.ProfileData;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using Reko.Data.ProfileData;
 using Reko.Models.Dto;
 
 namespace Reko.Data.Entities
@@ -6,11 +8,25 @@ namespace Reko.Data.Entities
     public sealed class CollectionInfo : IMappableEntity<CollectionInfo, CollectionInfoDto, int>
     {
         public int Id { get; set; }
+
+        [MaxLength(1200)]
         public string Name { get; set; }
+
+        [MaxLength(1200)]
         public string HeName { get; set; }
+
+        [MaxLength(2048)]
         public string PosterPath { get; set; }
+
+        [MaxLength(2048)]
         public string BackdropPath { get; set; }
-        public Movie Movie { get; set; }
+
+        public List<Movie> Movies { get; set; }
+
+        public CollectionInfo()
+        {
+            Movies = new List<Movie>();
+        }
 
         public CollectionInfoDto ToDto()
         {

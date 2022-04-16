@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Reko.Contracts.Managers;
 
@@ -18,27 +19,27 @@ namespace Reko.Controllers.Api
         }
 
         [Route("[action]/{movieId}")]
-        public async Task<ObjectResult> GetMovieInfo(int movieId)
+        public async Task<ObjectResult> GetMovieInfo(int movieId, CancellationToken cancellationToken)
         {
-            return Ok(await _movieManager.GetMovieInfo(movieId));
+            return Ok(await _movieManager.GetMovieInfo(movieId, cancellationToken));
         }
 
         [Route("[action]")]
-        public async Task<ObjectResult> GetMovies()
+        public async Task<ObjectResult> GetMovies(CancellationToken cancellationToken)
         {
-            return Ok(await _movieManager.GetMovies());
+            return Ok(await _movieManager.Get(cancellationToken));
         }
 
         [Route("[action]")]
-        public async Task<ObjectResult> GetTvShows()
+        public async Task<ObjectResult> GetTvShows(CancellationToken cancellationToken)
         {
-            return Ok(await _tvShowManager.GetTvShows());
+            return Ok(await _tvShowManager.Get(cancellationToken));
         }
 
         [Route("[action]/{tvShowId}")]
-        public async Task<ObjectResult> GetTvShowInfo(int tvShowId)
+        public async Task<ObjectResult> GetTvShowInfo(int tvShowId, CancellationToken cancellationToken)
         {
-            return Ok(await _tvShowManager.GetTvShowInfo(tvShowId));
+            return Ok(await _tvShowManager.GetTvShowInfo(tvShowId, cancellationToken));
         }
     }
 }

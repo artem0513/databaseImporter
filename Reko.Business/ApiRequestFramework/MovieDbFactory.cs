@@ -24,6 +24,11 @@ namespace Reko.Business.ApiRequestFramework
 
         public static void RegisterSettings(IMovieDbSettings settings)
         {
+            if (settings == null)
+            {
+                throw new ArgumentNullException(nameof(settings));
+            }
+
             ResetFactory();
 
             Settings = settings;
@@ -31,6 +36,16 @@ namespace Reko.Business.ApiRequestFramework
 
         public static void RegisterSettings(string apiKey, string apiUrl = "http://api.themoviedb.org/3/")
         {
+            if (string.IsNullOrWhiteSpace(apiKey))
+            {
+                throw new ArgumentException(nameof(apiKey));
+            }
+
+            if (string.IsNullOrWhiteSpace(apiUrl))
+            {
+                throw new ArgumentException(nameof(apiUrl));
+            }
+
             var settings = new MovieDbSettings(apiKey, apiUrl);
 
             RegisterSettings(settings);

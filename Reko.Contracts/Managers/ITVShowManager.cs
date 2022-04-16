@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
+using Reko.Data.Entities;
 using Reko.Models.Dto;
 
 namespace Reko.Contracts.Managers
 {
-    public interface ITVShowManager
+    public interface ITVShowManager : ICRUDManager<TvShow, TVShowDto, int>
     {
-        Task<IEnumerable<TVShowDto>> GetTvShows();
-        Task<TVShowDto> GetTvShowInfo(int id);
+        Task<TVShowDto> GetTvShowInfo(int id, CancellationToken cancellationToken);
     }
 }

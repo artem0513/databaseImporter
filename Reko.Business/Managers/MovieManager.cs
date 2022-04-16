@@ -1,15 +1,18 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
+using Reko.Contracts.Containers;
 using Reko.Contracts.Managers;
 using Reko.Contracts.Repositories;
+using Reko.Data.Entities;
 using Reko.Models.Dto;
+using Serilog;
 
 namespace Reko.Business.Managers
 {
-    public sealed class MovieManager : CatalogManagerBase<MovieDto, IMovieRepository>, IMovieManager
+    public sealed class MovieManager : CatalogManagerBase<Movie, IUniqueMovieDataContainer, MovieDto, IMovieRepository, int>, IMovieManager
     {
-        private readonly IMovieRepository _movieRepository;
         private readonly ICompanyRepository _companyRepository;
         private readonly ICrewMemberRepository _crewMemberRepository;
         private readonly ICastMemberRepository _castMemberRepository;
@@ -19,11 +22,12 @@ namespace Reko.Business.Managers
         private readonly IKeywordRepository _keywordRepository;
         private readonly ICountryRepository _countryRepository;
 
-        public MovieManager(IMovieRepository movieRepository, ICompanyRepository companyRepository, ICrewMemberRepository crewMemberRepository,
+        public MovieManager(IUniqueMovieDataContainer movieDataContainer, IMovieRepository movieRepository, ICompanyRepository companyRepository,
+            ICrewMemberRepository crewMemberRepository,
             ICastMemberRepository castMemberRepository, ILanguageRepository languageRepository, IGenreRepository genreRepository,
-            IVideoRepository videoRepository, IKeywordRepository keywordRepository, ICountryRepository countryRepository) : base(movieRepository)
+            IVideoRepository videoRepository, IKeywordRepository keywordRepository, ICountryRepository countryRepository, ILogger logger)
+            : base(movieRepository, movieDataContainer, logger)
         {
-            _movieRepository = movieRepository;
             _companyRepository = companyRepository;
             _crewMemberRepository = crewMemberRepository;
             _castMemberRepository = castMemberRepository;
@@ -34,49 +38,27 @@ namespace Reko.Business.Managers
             _countryRepository = countryRepository;
         }
 
-        protected override void RemoveDuplicates(IEnumerable<MovieDto> data)
+        public async Task<MovieDto> GetMovieInfo(int id, CancellationToken cancellationToken)
         {
-            foreach (var movieDto in data)
+            return await Repository.GetMovie(id, cancellationToken);
+        }
+
+        protected override async Task SaveChildObjects(IUniqueMovieDataContainer container, CancellationToken cancellationToken)
+        {
+            if (container == null)
             {
-                if (movieDto.Credit != null)
-                {
-                    movieDto.Credit.CrewMembers = movieDto.Credit.CrewMembers.Distinct();
-                    movieDto.Credit.CastMembers = movieDto.Credit.CastMembers.Distinct();
-                }
-
-                if (movieDto.Videos != null)
-                {
-                    movieDto.Videos.Videos = movieDto.Videos.Videos.Distinct();
-                }
-
-                movieDto.Genres = movieDto.Genres.Distinct();
-                movieDto.ProductionCompanies = movieDto.ProductionCompanies.Distinct();
-                movieDto.SpokenLanguages = movieDto.SpokenLanguages.Distinct();
-                movieDto.Keywords = movieDto.Keywords.Distinct();
-                movieDto.ProductionCountries = movieDto.ProductionCountries.Distinct();
+                throw new ArgumentNullException(nameof(container));
             }
-        }
 
-        protected override async Task SaveChildObjects(ICollection<MovieDto> data)
-        {
-            await _companyRepository.AddIfNotExistent(data.SelectMany(x => x.ProductionCompanies).Distinct());
-            await _crewMemberRepository.AddIfNotExistent(data.SelectMany(x => x.Credit?.CrewMembers).Distinct());
-            await _castMemberRepository.AddIfNotExistent(data.SelectMany(x => x.Credit?.CastMembers).Distinct());
-            await _languageRepository.AddIfNotExistent(data.SelectMany(x => x.SpokenLanguages).Distinct());
-            await _genreRepository.AddIfNotExistent(data.SelectMany(x => x.Genres).Distinct());
-            await _videoRepository.AddIfNotExistent(data.SelectMany(x => x.Videos?.Videos).Distinct());
-            await _keywordRepository.AddIfNotExistent(data.SelectMany(x => x.Keywords).Distinct());
-            await _countryRepository.AddIfNotExistent(data.SelectMany(x => x.ProductionCountries).Distinct());
-        }
-
-        public async Task<IEnumerable<MovieDto>> GetMovies()
-        {
-            return await Repository.Get();
-        }
-
-        public async Task<MovieDto> GetMovieInfo(int id)
-        {
-            return await Repository.GetMovie(id);
+            await Repository.AddCollectionInfos(container.CollectionInfos, cancellationToken);
+            await _companyRepository.AddIfNotExistent(container.ProductionCompanies, cancellationToken);
+            await _crewMemberRepository.AddIfNotExistent(container.CrewMembers, cancellationToken);
+            await _castMemberRepository.AddIfNotExistent(container.CastMembers, cancellationToken);
+            await _languageRepository.AddIfNotExistent(container.SpokenLanguages, cancellationToken);
+            await _genreRepository.AddIfNotExistent(container.Genres, cancellationToken);
+            await _videoRepository.AddIfNotExistent(container.Videos, cancellationToken);
+            await _keywordRepository.AddIfNotExistent(container.Keywords, cancellationToken);
+            await _countryRepository.AddIfNotExistent(container.ProductionCountries, cancellationToken);
         }
     }
 }

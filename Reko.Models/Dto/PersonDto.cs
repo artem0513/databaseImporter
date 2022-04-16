@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
 using Reko.Models.Enums;
+using Reko.Models.JsonConverters;
 
 namespace Reko.Models.Dto
 {
@@ -20,10 +22,12 @@ namespace Reko.Models.Dto
         public string Biography { get; set; }
 
         [DataMember(Name = "birthday")]
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
         public DateTime Birthday { get; set; }
 
         [DataMember(Name = "deathday")]
-        public DateTime? Deathday { get; set; }
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
+        public DateTime Deathday { get; set; }
 
         [DataMember(Name = "gender")]
         public Gender Gender { get; set; }

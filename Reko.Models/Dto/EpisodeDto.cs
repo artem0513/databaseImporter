@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
+using Reko.Models.JsonConverters;
 
 namespace Reko.Models.Dto
 {
     public class EpisodeDto : BaseDto<int>
     {
         [DataMember(Name = "ait_date")]
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
         public DateTime AidDate { get; set; }
 
         [DataMember(Name = "crew")]

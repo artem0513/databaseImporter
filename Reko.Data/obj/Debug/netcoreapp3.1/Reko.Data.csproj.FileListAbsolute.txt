@@ -128,3 +128,63 @@ C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Data\obj\Debug\netcoreapp3.
 C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.dll
 C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.pdb
 C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.genruntimeconfig.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.deps.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfo.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CopyComplete
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.genruntimeconfig.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.deps.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CopyComplete
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.genruntimeconfig.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.deps.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CopyComplete
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.genruntimeconfig.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.deps.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.AssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.csproj.CopyComplete
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko.Data\obj\Debug\netcoreapp3.1\Reko.Data.genruntimeconfig.cache

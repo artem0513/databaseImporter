@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
+using Reko.Models.JsonConverters;
 
 namespace Reko.Models.Dto
 {
@@ -31,7 +33,8 @@ namespace Reko.Models.Dto
         public string Overview { get; private set; }
 
         [DataMember(Name = "first_air_date")]
-        public DateTime FirstAirDate { get; private set; }
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
+        public DateTime? FirstAirDate { get; private set; }
 
         [DataMember(Name = "origin_country")]
         public IReadOnlyList<string> OriginCountry { get; private set; }

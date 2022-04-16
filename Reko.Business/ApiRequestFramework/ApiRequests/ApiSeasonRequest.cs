@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Reko.Business.ApiRequestFramework.ApiResponse;
 using Reko.Contracts.ApiRequestFramework;
 using Reko.Models.Dto;
 
@@ -17,6 +18,11 @@ namespace Reko.Business.ApiRequestFramework.ApiRequests
             : base(settings)
         {
             _genreApi = genreApi;
+        }
+
+        public void SetTvId(int id)
+        {
+            tvId = id;
         }
 
         public async Task<IApiQueryResponse<SeasonDto>> FindByIdAsync(int seasonNumber)
@@ -39,6 +45,13 @@ namespace Reko.Business.ApiRequestFramework.ApiRequests
 
             var heResponse = await QueryAsync<SeasonDto>(command, param);
 
+            SetHebrewLanguage(response, heResponse);
+
+            return response;
+        }
+
+        private static void SetHebrewLanguage(ApiQueryResponse<SeasonDto> response, ApiQueryResponse<SeasonDto> heResponse)
+        {
             response.Item.HeName = heResponse.Item.Name;
             response.Item.HeOverview = heResponse.Item.Overview;
             response.Item.Episodes = response.Item.Episodes.Join(heResponse.Item.Episodes, x => x.Id, x => x.Id, (en, he) =>
@@ -47,13 +60,6 @@ namespace Reko.Business.ApiRequestFramework.ApiRequests
                 en.HeOverview = he.Overview;
                 return en;
             });
-
-            return response;
-        }
-
-        public void SetTvId(int id)
-        {
-            tvId = id;
         }
     }
 }

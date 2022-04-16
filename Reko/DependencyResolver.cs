@@ -1,9 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Reko.Business.Containers;
 using Reko.Business.DataCollectors;
+using Reko.Business.EntityStorages;
 using Reko.Business.Managers;
 using Reko.Business.Repositories;
+using Reko.Contracts.Containers;
+using Reko.Contracts.EntityStorages;
 using Reko.Contracts.Managers;
 using Reko.Contracts.Repositories;
 using Reko.Data;
@@ -18,9 +22,14 @@ namespace Reko
             services.AddDbContext<RekoDbContext>(x => x.UseSqlServer(configuration.GetConnectionString("ConnectionString")));
             services.AddScoped<ICatalogDataCollector<MovieDto>, CatalogDataCollector<MovieDto>>();
             services.AddScoped<IDataCollectorManager, DataCollectorManager>();
-            services.AddScoped<EntityKeeper>();
+            services.AddScoped<IUniqueMovieDataContainer, UniqueMovieDataContainer>();
+            services.AddScoped<IUniqueTvShowDataContainer, UniqueTvShowDataContainer>();
             services.AddHostedService<SchedulerDataCollector>();
             services.AddScoped<ICatalogDataCollector<TVShowDto>, CatalogDataCollector<TVShowDto>>();
+
+            services.AddScoped<IMovieEntityStorage, MovieEntityStorage>();
+            services.AddScoped<ITvShowEntityStorage, TvShowEntityStorage>();
+
             services.ResolveManagers();
             services.ResolveRepositories();
         }
@@ -50,7 +59,6 @@ namespace Reko
             services.AddScoped<INetworkRepository, NetworkRepository>();
             services.AddScoped<ISeasonRepository, SeasonRepository>();
             services.AddScoped<IEpisodeRepository, EpisodeRepository>();
-            services.AddScoped<IEntityKeeper, EntityKeeper>();
         }
     }
 }

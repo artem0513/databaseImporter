@@ -32,6 +32,27 @@ namespace Reko.Business.ApiRequestFramework.ApiRequests
             var response = await QueryAsync<MovieDto>(command, param);
             param["language"] = "he";
             var heResponse = await QueryAsync<MovieDto>(command, param);
+            if (heResponse.Item != null && response.Item != null)
+            {
+                await SetHebrewLanguage(response, heResponse);
+                return response;
+            }
+
+            return null;
+        }
+
+
+        protected override Dictionary<string, string> GetIdsParams(DateTime from, DateTime to)
+        {
+            return new Dictionary<string, string>
+            {
+                {"primary_release_date.gte", from.ToString("yyyy-MM-dd")},
+                {"primary_release_date.lte", to.ToString("yyyy-MM-dd")},
+            };
+        }
+
+        private static async Task SetHebrewLanguage(IApiQueryResponse<MovieDto> response, IApiQueryResponse<MovieDto> heResponse)
+        {
             response.Item.HeTitle = heResponse.Item.Title;
             response.Item.HeOverview = heResponse.Item.Overview;
             response.Item.Videos.Videos = response.Item.Videos?.Videos.Concat(heResponse.Item.Videos?.Videos ?? Enumerable.Empty<VideoDto>())
@@ -49,18 +70,6 @@ namespace Reko.Business.ApiRequestFramework.ApiRequests
             {
                 response.Item.MovieCollectionInfo.HeName = heResponse.Item.MovieCollectionInfo.Name;
             }
-
-            return response;
-        }
-
-        protected override Dictionary<string, string> GetIdsParams(DateTime date)
-        {
-            var dateToString = date.ToString("yyyy-MM-dd");
-            return new Dictionary<string, string>
-            {
-                {"primary_release_date.gte", dateToString},
-                {"primary_release_date.lte", dateToString},
-            };
         }
     }
 }

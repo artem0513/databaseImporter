@@ -18,7 +18,8 @@ namespace Reko.Models.Dto
         public IEnumerable<int> EpisodeRunTime { get; set; }
 
         [DataMember(Name = "first_air_date")]
-        public DateTime? FirstAirDate { get; set; }
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
+        public DateTime FirstAirDate { get; set; }
 
         [DataMember(Name = "genres")]
         public IEnumerable<GenreDto> Genres { get; set; }
@@ -33,7 +34,8 @@ namespace Reko.Models.Dto
         public IEnumerable<string> Languages { get; set; }
 
         [DataMember(Name = "last_air_date")]
-        public DateTime LastAirDate { get; set; }
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
+        public DateTime? LastAirDate { get; set; }
 
         [DataMember(Name = "name")]
         public string Name { get; set; }

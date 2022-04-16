@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Globalization;
+using Microsoft.Data.SqlClient.Server;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
@@ -9,8 +11,6 @@ namespace Reko.Business.ApiRequestFramework
     {
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            ConditionalTraceReaderValue(reader);
-
             try
             {
                 return base.ReadJson(reader, objectType, existingValue, serializer);
@@ -28,18 +28,10 @@ namespace Reko.Business.ApiRequestFramework
 
                 return default(DateTime);
             }
-        }
-
-        [Conditional("DEBUG")]
-        private static void ConditionalTraceReaderValue(JsonReader reader)
-        {
-            var val = reader.Value?.ToString();
-            if (string.IsNullOrWhiteSpace(val))
+            catch (Exception)
             {
-                val = "<empty>";
+                return default(DateTime);
             }
-
-            Debug.WriteLine($"IsoDateTimeConverterEx.JsonReader.Value: {val}");
         }
     }
 }

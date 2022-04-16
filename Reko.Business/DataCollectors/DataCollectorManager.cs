@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Threading;
 using Microsoft.Extensions.DependencyInjection;
 using Reko.Business.ApiRequestFramework;
 using Reko.Business.ApiRequestFramework.ApiRequests;
 using Reko.Contracts.Managers;
-using Reko.Data.Entities;
 using Reko.Models.Dto;
-using Reko.Models.Models;
 
-namespace Reko.Business.Managers
+namespace Reko.Business.DataCollectors
 {
     public class DataCollectorManager : IDataCollectorManager
     {
@@ -21,7 +18,7 @@ namespace Reko.Business.Managers
             _serviceScopeFactory = serviceScopeFactory;
         }
 
-        public string Collect(DateTime from, DateTime to)
+        public string Collect(DateTime from, DateTime to, CancellationToken cancellationToken)
         {
             lock (_locker)
             {
@@ -31,9 +28,9 @@ namespace Reko.Business.Managers
                 var movieManager = scope.ServiceProvider.GetService<ICatalogDataCollector<MovieDto>>();
 
                 tvShowManager
-                    .CollectData(MovieDbFactory.Create<ApiTVShowRequest>().Value, from, to).GetAwaiter().GetResult();
+                    .CollectData(MovieDbFactory.Create<ApiTVShowRequest>().Value, from, to, cancellationToken).GetAwaiter().GetResult();
                 movieManager
-                    .CollectData(MovieDbFactory.Create<ApiMovieRequest>().Value, from, to).GetAwaiter().GetResult();
+                    .CollectData(MovieDbFactory.Create<ApiMovieRequest>().Value, from, to, cancellationToken).GetAwaiter().GetResult();
 
                 return "Successfully updated";
             }

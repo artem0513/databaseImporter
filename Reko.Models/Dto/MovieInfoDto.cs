@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
+using Reko.Models.JsonConverters;
 
 namespace Reko.Models.Dto
 {
@@ -26,6 +28,7 @@ namespace Reko.Models.Dto
         public string Overview { get; set; }
 
         [DataMember(Name = "release_date")]
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
         public DateTime ReleaseDate { get; set; }
 
         [DataMember(Name = "poster_path")]

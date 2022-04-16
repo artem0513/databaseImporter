@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Reko.Contracts;
 using Reko.Contracts.Managers;
@@ -16,9 +18,14 @@ namespace Reko.Controllers
         }
 
         [HttpPost]
-        public IActionResult Run([FromForm] RunSchedulerModel request)
+        public IActionResult Run([FromForm] RunSchedulerModel request, CancellationToken cancellationToken)
         {
-            var summary = _dataCollectorManager.Collect(request.From, request.To);
+            if (request.From > request.To)
+            {
+                throw new ArgumentException("\"From\" date should be less than \"To\" date");
+            }
+
+            var summary = _dataCollectorManager.Collect(request.From, request.To, cancellationToken);
             return View(model: summary);
         }
 

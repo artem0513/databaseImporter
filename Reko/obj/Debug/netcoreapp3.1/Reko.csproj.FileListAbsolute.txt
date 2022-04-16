@@ -671,3 +671,531 @@ C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko\obj\Debug\netcoreapp3.1\Rek
 C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.dll
 C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.pdb
 C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.genruntimeconfig.cache
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\DataCollectors\updater.json
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cache
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cs
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.input.cache
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.output.cache
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorCoreGenerate.cache
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Run.cshtml.g.cs
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cs
+C:\Users\Artem\Desktop\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\DataCollectors\updater.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.exe
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.deps.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfo.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.Manifest.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.xml
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\scopedcss\bundle\Reko.styles.css
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.input.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.output.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorCoreGenerate.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Run.cshtml.g.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cache
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cs
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CopyComplete
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\фывфыв\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.genruntimeconfig.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\DataCollectors\updater.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.exe
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.deps.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.Manifest.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.xml
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\scopedcss\bundle\Reko.styles.css
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.input.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.output.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorCoreGenerate.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Run.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cache
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CopyComplete
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\New folder (3)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.genruntimeconfig.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\DataCollectors\updater.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.exe
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.deps.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.Manifest.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.xml
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\scopedcss\bundle\Reko.styles.css
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.input.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.output.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorCoreGenerate.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Run.cshtml.g.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cache
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CopyComplete
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\RekoGit\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.genruntimeconfig.cache
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Users\Artem\Desktop\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\DataCollectors\updater.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.exe
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.deps.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.runtimeconfig.dev.json
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.AssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorAssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.Manifest.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\staticwebassets\Reko.StaticWebAssets.xml
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\scopedcss\bundle\Reko.styles.css
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.input.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.TagHelpers.output.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorCoreGenerate.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Home\Run.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cache
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.RazorTargetAssemblyInfo.cs
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.Views.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.csproj.CopyComplete
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.dll
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.pdb
+C:\Users\artemya\Desktop\New folder (2)\Reko\Reko\obj\Debug\netcoreapp3.1\Reko.genruntimeconfig.cache

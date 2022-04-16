@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
+using Reko.Models.JsonConverters;
 
 namespace Reko.Models.Dto
 {
@@ -30,6 +32,7 @@ namespace Reko.Models.Dto
         public bool IsOfficial { get; set; }
 
         [DataMember(Name = "published_at")]
+        [JsonConverter(typeof(InvalidDateTimeFormatJsonConverter))]
         public DateTime? PublishedAt { get; set; }
     }
 }

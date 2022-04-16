@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
@@ -50,6 +51,11 @@ namespace Reko.Business.ApiRequestFramework.ApiRequests
 
         public async Task<IApiQueryResponse<IReadOnlyList<GenreDto>>> GetAllAsync(string language = "en")
         {
+            if (string.IsNullOrWhiteSpace(language))
+            {
+                throw new ArgumentException(nameof(language));
+            }
+
             var tv = await GetTelevisionAsync(language);
             if (tv.Error != null)
             {

@@ -1,42 +1,63 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
+using Reko.Contracts.Containers;
 using Reko.Contracts.Managers;
 using Reko.Contracts.Repositories;
+using Reko.Data;
 using Reko.Models.Dto;
+using Serilog;
 
 namespace Reko.Business.Managers
 {
-    public abstract class CatalogManagerBase<TDto, TRepository> : ICatalogManager<TDto>
-        where TRepository : class, ILinkRepository<TDto>, ICRUDRepository<TDto, int>
-        where TDto : BaseDto<int>
+    public abstract class CatalogManagerBase<TEntity, TContainer, TDto, TRepository, TId> : CRUDManager<TEntity, TDto, TRepository, TId>, ICatalogManager<TDto>
+        where TRepository : class, ILinkRepository<TContainer, TDto, TId>, ICRUDRepository<TDto, TId>
+        where TDto : BaseDto<TId>
+        where TEntity : class, IMappableEntity<TEntity, TDto, TId>
+        where TContainer : IUniqueDataContainer<TDto, TId>
     {
-        protected TRepository Repository { get; }
+        protected TContainer Container { get; }
+        protected ILogger Logger { get; }
 
-        protected CatalogManagerBase(TRepository repository)
+        protected CatalogManagerBase(TRepository repository, TContainer container, ILogger logger) : base(repository)
         {
-            Repository = repository;
+            Container = container;
+            Logger = logger;
         }
 
-        protected abstract void RemoveDuplicates(IEnumerable<TDto> data);
+        protected abstract Task SaveChildObjects(TContainer container, CancellationToken cancellationToken);
 
-        public async Task SaveData(IEnumerable<TDto> data)
+        public async Task SaveData(IEnumerable<TDto> data, CancellationToken cancellationToken)
         {
+            if (data == null)
+            {
+                throw new ArgumentNullException(nameof(data));
+            }
+
             var materializedData = data.Distinct().ToArray();
-
-            var ids = await Repository.AddIfNotExistent(materializedData);
-            var dataToSave = materializedData.Where(x => ids.Contains(x.Id)).ToArray();
-
-            RemoveDuplicates(dataToSave);
-            await SaveChildObjects(dataToSave);
-            await LinkData(dataToSave);
+            var ids = (await Repository.AddIfNotExistentAndGetIds(materializedData, cancellationToken)).ToArray();
+            if (ids.Length != 0)
+            {
+                Logger.Information("Saving ids of " + typeof(TDto).Name + " " + string.Join(',', ids));
+                Container.SetData(materializedData.Where(x => ids.Contains(x.Id)));
+                await SaveChildObjects(Container, cancellationToken);
+                await LinkData(Container, cancellationToken);
+                Logger.Information("Saving was successful.");
+            }
         }
 
-        public async Task LinkData(ICollection<TDto> data)
+        public async Task LinkData(TContainer container, CancellationToken cancellationToken)
         {
-            await Repository.LinkData(data);
-        }
+            if (container == null)
+            {
+                throw new ArgumentNullException(nameof(container));
+            }
 
-        protected abstract Task SaveChildObjects(ICollection<TDto> data);
+            Logger.Information("Linking data...");
+            await Repository.LinkData(container, cancellationToken);
+            Logger.Information("Data was linked successfully...");
+        }
     }
 }

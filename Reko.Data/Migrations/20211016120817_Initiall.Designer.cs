@@ -10,8 +10,8 @@ using Reko.Data;
 namespace Reko.Data.Migrations
 {
     [DbContext(typeof(RekoDbContext))]
-    [Migration("20211010134647_AddEntities")]
-    partial class AddEntities
+    [Migration("20211016120817_Initiall")]
+    partial class Initiall
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,7 +33,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieCastMember");
+                    b.ToTable("MoviesCastMembers");
                 });
 
             modelBuilder.Entity("CastMemberTvShow", b =>
@@ -48,13 +48,13 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("TvShowsId");
 
-                    b.ToTable("TvShowCastMember");
+                    b.ToTable("TvShowsCastMembers");
                 });
 
             modelBuilder.Entity("CountryMovie", b =>
                 {
                     b.Property<string>("CountriesId")
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<int>("MoviesId")
                         .HasColumnType("int");
@@ -63,7 +63,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieCountry");
+                    b.ToTable("MoviesCountries");
                 });
 
             modelBuilder.Entity("CrewMemberEpisode", b =>
@@ -78,7 +78,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("EpisodesId");
 
-                    b.ToTable("EpisodeCrewMember");
+                    b.ToTable("EpisodesCrewMembers");
                 });
 
             modelBuilder.Entity("CrewMemberMovie", b =>
@@ -93,7 +93,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieCrewMember");
+                    b.ToTable("MoviesCrewMembers");
                 });
 
             modelBuilder.Entity("CrewMemberTvShow", b =>
@@ -108,7 +108,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("TvShowsId");
 
-                    b.ToTable("TvShowCrewMember");
+                    b.ToTable("TvShowsCrewMembers");
                 });
 
             modelBuilder.Entity("EpisodeGuestStar", b =>
@@ -123,7 +123,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("GuestStarsId");
 
-                    b.ToTable("EpisodeGuestStar");
+                    b.ToTable("EpisodesGuestStars");
                 });
 
             modelBuilder.Entity("GenreMovie", b =>
@@ -138,7 +138,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieGenre");
+                    b.ToTable("MoviesGenres");
                 });
 
             modelBuilder.Entity("GenreTvShow", b =>
@@ -153,7 +153,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("TvShowsId");
 
-                    b.ToTable("TvShowGenre");
+                    b.ToTable("TvShowsGenres");
                 });
 
             modelBuilder.Entity("KeyWordMovie", b =>
@@ -168,7 +168,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieKeyword");
+                    b.ToTable("MoviesKeywords");
                 });
 
             modelBuilder.Entity("KeyWordTvShow", b =>
@@ -183,13 +183,13 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("TvShowsId");
 
-                    b.ToTable("TvShowKeyword");
+                    b.ToTable("TvShowsKeywords");
                 });
 
             modelBuilder.Entity("LanguageMovie", b =>
                 {
                     b.Property<string>("LanguagesId")
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<int>("MoviesId")
                         .HasColumnType("int");
@@ -198,7 +198,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieLanguage");
+                    b.ToTable("MoviesLanguages");
                 });
 
             modelBuilder.Entity("MovieProductionCompany", b =>
@@ -213,7 +213,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("ProductionCompaniesId");
 
-                    b.ToTable("MovieProductionCompany");
+                    b.ToTable("MoviesProductionCompanies");
                 });
 
             modelBuilder.Entity("NetworkTvShow", b =>
@@ -228,7 +228,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("TvShowsId");
 
-                    b.ToTable("TvShowNetwork");
+                    b.ToTable("TvShowsNetworks");
                 });
 
             modelBuilder.Entity("ProductionCompanyTvShow", b =>
@@ -243,7 +243,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("TvShowsId");
 
-                    b.ToTable("TvShowProductionCompany");
+                    b.ToTable("TvShowsProductionCompanies");
                 });
 
             modelBuilder.Entity("Reko.Data.Entities.CastMember", b =>
@@ -258,31 +258,37 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Character")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(400)
+                        .HasColumnType("nvarchar(400)");
 
                     b.Property<string>("CreditId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<int?>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("KnownForDepartment")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<int>("Order")
                         .HasColumnType("int");
 
                     b.Property<string>("OriginalName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<double>("Popularity")
                         .HasColumnType("float");
 
                     b.Property<string>("ProfilePath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.HasKey("Id");
 
@@ -295,16 +301,20 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("BackdropPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("HeName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("PosterPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.HasKey("Id");
 
@@ -314,10 +324,12 @@ namespace Reko.Data.Migrations
             modelBuilder.Entity("Reko.Data.Entities.Country", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.HasKey("Id");
 
@@ -336,31 +348,37 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Character")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(700)
+                        .HasColumnType("nvarchar(700)");
 
                     b.Property<string>("CreditId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<int?>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("KnownForDepartment")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<int>("Order")
                         .HasColumnType("int");
 
                     b.Property<string>("OriginalName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<double>("Popularity")
                         .HasColumnType("float");
 
                     b.Property<string>("ProfilePath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.HasKey("Id");
 
@@ -379,22 +397,28 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("HeName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("HeOverview")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Overview")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PosterPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("ProductionCode")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<int?>("SeasonId")
                         .HasColumnType("int");
@@ -403,7 +427,8 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("StillPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<double>("VoteAverage")
                         .HasColumnType("float");
@@ -424,10 +449,12 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("HeName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("Id");
 
@@ -443,31 +470,37 @@ namespace Reko.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Character")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("CreditId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<int?>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("KnownForDepartment")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<int>("Order")
                         .HasColumnType("int");
 
                     b.Property<string>("OriginalName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<double>("Popularity")
                         .HasColumnType("float");
 
                     b.Property<string>("ProfilePath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.HasKey("Id");
 
@@ -480,7 +513,8 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(400)
+                        .HasColumnType("nvarchar(400)");
 
                     b.HasKey("Id");
 
@@ -490,10 +524,12 @@ namespace Reko.Data.Migrations
             modelBuilder.Entity("Reko.Data.Entities.Language", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(70)
+                        .HasColumnType("nvarchar(70)");
 
                     b.HasKey("Id");
 
@@ -506,7 +542,8 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("BackdropPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<int?>("Budget")
                         .HasColumnType("int");
@@ -515,16 +552,20 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("HeOverview")
+                        .HasMaxLength(7000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HeTitle")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Homepage")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("ImdbId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<bool>("IsAdultThemed")
                         .HasColumnType("bit");
@@ -533,19 +574,23 @@ namespace Reko.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("OriginalLanguage")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("OriginalTitle")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Overview")
+                        .HasMaxLength(7000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double?>("Popularity")
                         .HasColumnType("float");
 
                     b.Property<string>("PosterPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<DateTime?>("ReleaseDate")
                         .HasColumnType("datetime2");
@@ -557,13 +602,16 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Status")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Tagline")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<double?>("VoteAverage")
                         .HasColumnType("float");
@@ -573,9 +621,7 @@ namespace Reko.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CollectionInfoId")
-                        .IsUnique()
-                        .HasFilter("[CollectionInfoId] IS NOT NULL");
+                    b.HasIndex("CollectionInfoId");
 
                     b.ToTable("Movies");
                 });
@@ -586,7 +632,8 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.HasKey("Id");
 
@@ -599,9 +646,11 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("AlsoKnownAs")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Biography")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Birthday")
@@ -610,29 +659,34 @@ namespace Reko.Data.Migrations
                     b.Property<DateTime?>("Deathday")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Gender")
+                    b.Property<int?>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("Homepage")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("ImdbId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<bool>("IsAdultFilmStar")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("PlaceOfBirth")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<double>("Popularity")
                         .HasColumnType("float");
 
                     b.Property<string>("ProfilePath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.HasKey("Id");
 
@@ -645,25 +699,32 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Headquarters")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Homepage")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("LogoPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("ParentCompanyLogoPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("ParentCompanyName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.HasKey("Id");
 
@@ -679,19 +740,24 @@ namespace Reko.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("HeName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("HeOverview")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Overview")
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PosterPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<int>("SeasonNumber")
                         .HasColumnType("int");
@@ -712,34 +778,41 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("BackdropPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<string>("EpisodeRunTime")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<DateTime?>("FirstAirDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("HeName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("HeOverview")
+                        .HasMaxLength(7000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Homepage")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<bool>("InProduction")
                         .HasColumnType("bit");
 
                     b.Property<string>("Languages")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<DateTime?>("LastAirDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<int?>("NumberOfEpisodes")
                         .HasColumnType("int");
@@ -748,22 +821,27 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("OriginCountry")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(70)
+                        .HasColumnType("nvarchar(70)");
 
                     b.Property<string>("OriginalLanguage")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("OriginalName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Overview")
+                        .HasMaxLength(7000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double?>("Popularity")
                         .HasColumnType("float");
 
                     b.Property<string>("PosterPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.HasKey("Id");
 
@@ -776,16 +854,19 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("CreditId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("ProfilePath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.HasKey("Id");
 
@@ -795,31 +876,37 @@ namespace Reko.Data.Migrations
             modelBuilder.Entity("Reko.Data.Entities.Video", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<bool>("IsOfficial")
                         .HasColumnType("bit");
 
                     b.Property<string>("Iso31661")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Iso6391")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Key")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2000)
+                        .HasColumnType("nvarchar(2000)");
 
                     b.Property<int?>("MovieId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<DateTime?>("PublishedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Site")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
 
                     b.Property<int?>("Size")
                         .HasColumnType("int");
@@ -828,7 +915,8 @@ namespace Reko.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Type")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
 
@@ -851,7 +939,7 @@ namespace Reko.Data.Migrations
 
                     b.HasIndex("TvShowsId");
 
-                    b.ToTable("TvShowTvShowCreator");
+                    b.ToTable("TvShowsTvShowCreators");
                 });
 
             modelBuilder.Entity("CastMemberMovie", b =>
@@ -1091,8 +1179,8 @@ namespace Reko.Data.Migrations
             modelBuilder.Entity("Reko.Data.Entities.Movie", b =>
                 {
                     b.HasOne("Reko.Data.Entities.CollectionInfo", "CollectionInfo")
-                        .WithOne("Movie")
-                        .HasForeignKey("Reko.Data.Entities.Movie", "CollectionInfoId");
+                        .WithMany("Movies")
+                        .HasForeignKey("CollectionInfoId");
 
                     b.Navigation("CollectionInfo");
                 });
@@ -1138,7 +1226,7 @@ namespace Reko.Data.Migrations
 
             modelBuilder.Entity("Reko.Data.Entities.CollectionInfo", b =>
                 {
-                    b.Navigation("Movie");
+                    b.Navigation("Movies");
                 });
 
             modelBuilder.Entity("Reko.Data.Entities.Movie", b =>

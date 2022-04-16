@@ -52,7 +52,7 @@ namespace Reko.Business.DataCollectors
             var yesterday = DateTime.Now.AddDays(-1);
 
             _serviceScopeFactory.CreateScope().ServiceProvider.GetService<IDataCollectorManager>()
-                .Collect(yesterday, yesterday);
+                .Collect(yesterday, yesterday, CancellationToken.None);
             _settings.LastUpdatedDate = DateTime.UtcNow.ToString(CultureInfo.InvariantCulture);
             var json = JsonConvert.SerializeObject(_settings);
             File.WriteAllText(_settingsFile, json);

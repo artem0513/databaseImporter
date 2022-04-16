@@ -11,6 +11,8 @@ namespace Reko.Data.ProfileData
         {
             _mapperConfiguration = new MapperConfiguration(cfg =>
             {
+                ConfigureCollectionInfoFromDtoToEntity(cfg);
+                ConfigureCollectionInfoFromEntityToDto(cfg);
                 ConfigureMovieFromDtoToEntity(cfg);
                 ConfigureMovieFromEntityToDto(cfg);
                 ConfigureGenreFromDtoToEntity(cfg);
@@ -21,8 +23,6 @@ namespace Reko.Data.ProfileData
                 ConfigureLanguageFromEntityToDto(cfg);
                 ConfigureKeyWordFromDtoToEntity(cfg);
                 ConfigureKeyWordFromEntityToDto(cfg);
-                ConfigureCollectionInfoFromDtoToEntity(cfg);
-                ConfigureCollectionInfoFromEntityToDto(cfg);
                 ConfigureProductionCompanyFromDtoToEntity(cfg);
                 ConfigureProductionCompanyInfoFromEntityToDto(cfg);
                 ConfigureCrewMemberFromDtoToEntity(cfg);

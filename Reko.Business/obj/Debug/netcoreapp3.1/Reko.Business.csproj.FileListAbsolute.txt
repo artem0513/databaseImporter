@@ -1,0 +1,130 @@
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\artemya\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\artemya\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\Artem\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\Artem\Desktop\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Business\bin\Debug\netcoreapp3.1\DataCollectors\updater.json
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\DataCollectors\updater.json
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.deps.json
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Business.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.AssemblyInfo.cs
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.csproj.CopyComplete
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Business\obj\Debug\netcoreapp3.1\Reko.Business.pdb

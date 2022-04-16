@@ -1,0 +1,102 @@
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\Reko\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\RekoVersions\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\v13\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\RekoVersions\v1 - Copy\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\Artem\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.deps.json
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Contracts.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Data.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Data.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\bin\Debug\netcoreapp3.1\Reko.Models.pdb
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.AssemblyReference.cache
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfoInputs.cache
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.AssemblyInfo.cs
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.csproj.CopyComplete
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.dll
+C:\Users\artemya\Desktop\WORKED\New folder\Reko\Reko.Contracts\obj\Debug\netcoreapp3.1\Reko.Contracts.pdb

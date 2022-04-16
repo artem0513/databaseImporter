@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reko.Data\Reko.Data.csproj" />
+    <ProjectReference Include="..\Reko.Models\Reko.Models.csproj" />
+  </ItemGroup>
+
+</Project>
